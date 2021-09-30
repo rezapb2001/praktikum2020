@@ -32,7 +32,9 @@ class(a)
 b <- murders[,2]
 all(a == b)
 
-length(levels(murders$region))
+
+levels(murders$region)
+length(murders$region)
 
 table(murders$region)
 ```
